@@ -24,6 +24,12 @@ html, body {
 	height: 63px;
 	width: 94px;
 	margin: 15px 0 11px 65px;
+	> a {
+		display: inline-block;
+		height: 63px;
+		width: 94px;
+		text-indent: -99999px;
+	}
 }
 
 .topNav {
@@ -59,10 +65,11 @@ html, body {
 		> ul {
 			> li {
 				> span {
+					font-size: 16px;
 					padding: 0 15px;
 				}
 				> ul {
-					margin: 20px 0;
+					margin: 15px 0;
 					> li {
 						> a {
 							display: inline-block;
@@ -81,6 +88,15 @@ html, body {
 	}
 }
 
+.frame-content {
+	margin-left: 229px;
+	> iframe {
+		position: fixed;
+		width: e("calc(100% - 229px)");
+		height: e("calc(100% - 90px)");
+		border: 0;
+	}
+}
 
 
 
