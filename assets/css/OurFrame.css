@@ -1,3 +1,7 @@
+html,
+body {
+  height: 100%;
+}
 .topNav:before,
 .topNav:after,
 .header:before,
@@ -35,4 +39,35 @@
 }
 .topNav > li:hover {
   border-bottom: 2px solid #4c8fd4;
+}
+.siderBar {
+  position: fixed;
+  width: 229px;
+  border-right: 1px solid #f1f1f1;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+.siderBar > .sider-head {
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  font-size: 16px;
+  background: url("../images/siderbar-top.png") no-repeat;
+  margin-bottom: 10px;
+}
+.siderBar > .sider-menu > ul > li > span {
+  padding: 0 15px;
+}
+.siderBar > .sider-menu > ul > li > ul {
+  margin: 20px 0;
+}
+.siderBar > .sider-menu > ul > li > ul > li > a {
+  display: inline-block;
+  width: 229px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 45px;
+}
+.siderBar > .sider-menu > ul > li > ul > li > a:hover {
+  background-color: #fff;
 }
