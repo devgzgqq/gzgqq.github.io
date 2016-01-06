@@ -26,6 +26,12 @@ body {
   width: 94px;
   margin: 15px 0 11px 65px;
 }
+.logo > a {
+  display: inline-block;
+  height: 63px;
+  width: 94px;
+  text-indent: -99999px;
+}
 .topNav {
   margin-top: 6px;
   margin-left: 386px;
@@ -56,10 +62,11 @@ body {
   margin-bottom: 10px;
 }
 .siderBar > .sider-menu > ul > li > span {
+  font-size: 16px;
   padding: 0 15px;
 }
 .siderBar > .sider-menu > ul > li > ul {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 .siderBar > .sider-menu > ul > li > ul > li > a {
   display: inline-block;
@@ -70,4 +77,13 @@ body {
 }
 .siderBar > .sider-menu > ul > li > ul > li > a:hover {
   background-color: #fff;
+}
+.frame-content {
+  margin-left: 229px;
+}
+.frame-content > iframe {
+  position: fixed;
+  width: calc(100% - 229px);
+  height: calc(100% - 90px);
+  border: 0;
 }
