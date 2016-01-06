@@ -369,17 +369,17 @@ mark,
   text-transform: capitalize;
 }
 a {
-  color: #2db7f5;
+  color: #666666;
   background: transparent;
   text-decoration: none;
   outline: none;
   cursor: pointer;
 }
 a:hover {
-  color: #57c5f7;
+  color: #858585;
 }
 a:active {
-  color: #2baee9;
+  color: #616161;
 }
 a:active,
 a:hover {
