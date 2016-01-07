@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>排版</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/OurUI.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/OurFrame.css">
+    <style type="text/css" media="screen">
+    .page-head {
+        width: 100%;
+        padding: 0 37px 0;
+        background-color: #f9f9f9;
+        overflow: hidden;
+    }
+    
+    .page-content {
+        padding: 0 37px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="warper">
+        <div class="page-head">
+            <h3>Typeset 排版</h3>
+            <h4><small>良好的排版规范能大大提升用户的视觉体验。</small></h4>
+        </div>
+        <div class="row page-content">
+            <div class="col-md-9">
+                <h3>标题</h3>
+                <p>HTML 中的所有标题标签，h1 到 h6 均可使用。另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。</p>
+                <div class="our-example">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>H1 heading1 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;36px&nbsp;&nbsp;&nbsp;&nbsp;bold</h1>
+                            <h2>H2 heading2 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;30px&nbsp;&nbsp;&nbsp;&nbsp;bold</h2>
+                            <h3>H3 heading3 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;24px&nbsp;&nbsp;&nbsp;&nbsp;bold</h3>
+                            <h4>H4 heading4 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;18px&nbsp;&nbsp;&nbsp;&nbsp;bold</h4>
+                            <h5>H5 heading5 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;14px&nbsp;&nbsp;&nbsp;&nbsp;bold</h5>
+                            <h6>H6 heading6 <br>微软雅黑/宋体&nbsp;&nbsp;&nbsp;&nbsp;12px&nbsp;&nbsp;&nbsp;&nbsp;bold</h6>
+                        </div>
+                    </div>
+                </div>
+                <h3>段落和行高</h3>
+                <p>考虑到阅读的舒适度和节奏感，句子和段落间需要合适的间距。行距決定了段落中各行文字的垂直距离，通过字体本身行高来控制，我们行高默认为字号的 1.5 倍。段落间距決定了段落上下的间距，一般为字号的一倍宽。</p>
+                <div class="our-example">
+                    <div class="row">
+                        <div class="col-sm-6 our-duanluo-12">
+                            <h5>12px 段落</h5>
+                            <p>
+                                汉学家称这个空白字为「盘古之白」，因为它劈开了全角字和半角字之间的混沌。
+                            </p>
+                            <p>
+                                另有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5>14px 段落</h5>
+                            <p>
+                                汉学家称这个空白字为「盘古之白」，因为它劈开了全角字和半角字之间的混沌。
+                            </p>
+                            <p>
+                                另有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h3>对齐</h3>
+                <p>通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+                <div class="our-example">
+                    <p class="text-left">居左对齐</p>
+                    <p class="text-center">居中对齐</p>
+                    <p class="text-right">居右对齐</p>
+                    <p class="text-justify">Justified text.</p>
+                    <p class="text-nowrap">No wrap text.</p>
+                </div>
+                <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-left"</span><span class="nt">&gt;</span>Left aligned text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-center"</span><span class="nt">&gt;</span>Center aligned text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-right"</span><span class="nt">&gt;</span>Right aligned text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-justify"</span><span class="nt">&gt;</span>Justified text.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-nowrap"</span><span class="nt">&gt;</span>No wrap text.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
