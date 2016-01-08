@@ -128,37 +128,6 @@ body {
     }
 }
 
-.page-head {
-    width: 100%;
-    padding: 0 37px 0;
-    background-color: #f9f9f9;
-    overflow: hidden;
-    > h3 {
-        color: #333;
-    }
-    > h4 {
-        color: #999;
-        > small {
-            font-weight: normal;
-        }
-    }
-}
-
-.page-content {
-    padding: 0 37px;
-    > div {
-        > h3 {
-            color: #333;
-            margin-top: 43px;
-            margin-bottom: 24px;
-        }
-        > p {
-            color: #555;
-            margin: 16px 0;
-        }
-    }
-}
-
 .highlight {
     padding: 15px;
     margin-bottom: 14px;
@@ -166,7 +135,7 @@ body {
     border: 1px solid #e1e1e8;
     border-top: 0;
     &.border-top {
-        border-top: 1px solid #e1e1e8;
+    	border-top: 1px solid #e1e1e8;
     }
     > pre {
         > code {
@@ -218,134 +187,86 @@ body {
 }
 
 .gray-box {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    margin: 20px 10px;
-    color: #fff;
-    text-align: center;
-    line-height: 100px;
-    &.gray-base {
-        background-color: #000;
-    }
-    &.gray-dark {
-        background-color: #333;
-    }
-    &.gray-darker {
-        background-color: #222;
-    }
-    &.gray {
-        background-color: #555;
-    }
-    &.gray-light {
-        background-color: #777;
-    }
-    &.gray-lighter {
-        background-color: #999;
-    }
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 20px 10px;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	&.gray-base {
+		background-color: #000;
+	}
+	&.gray-dark {
+		background-color: #333;
+	}
+	&.gray-darker {
+		background-color: #222;
+	}
+	&.gray {
+		background-color: #555;
+	}
+	&.gray-light {
+		background-color: #777;
+	}
+	&.gray-lighter {
+		background-color: #eee;
+	}
 }
 
 .our-color-base {
-    color: #555;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #555;
-        color: #fff;
-        vertical-align: middle;
-    }
+	color: #555;
+	> span {
+		display: inline-block;
+		margin: 0 30px;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #555;
+		color: #fff;
+		vertical-align: middle;
+	}
 }
-
 .our-color-dark {
-    color: #333;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #333;
-        color: #fff;
-        vertical-align: middle;
-    }
+	color: #333;
+	> span {
+		display: inline-block;
+		margin: 0 30px;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #333;
+		color: #fff;
+		vertical-align: middle;
+	}
 }
-
 .our-color-light {
-    color: #999;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #999;
-        color: #fff;
-        vertical-align: middle;
-    }
+	color: lighten(#000, 90.5%);
+	> span {
+		display: inline-block;
+		margin: 0 30px;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #eee;
+		color: #fff;
+		vertical-align: middle;
+	}
 }
-
 .our-color-primary {
-    color: #28a3ef;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #28a3ef;
-        color: #fff;
-        vertical-align: middle;
-    }
-}
-
-.our-color-success {
-    color: #43cd6e;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #43cd6e;
-        color: #fff;
-        vertical-align: middle;
-    }
-}
-
-.our-color-error {
-    color: #ea4a36;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #ea4a36;
-        color: #fff;
-        vertical-align: middle;
-    }
-}
-
-.our-color-warning {
-    color: #fac603;
-    > span {
-        display: inline-block;
-        margin: 0 30px;
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        text-align: center;
-        background-color: #fac603;
-        color: #fff;
-        vertical-align: middle;
-    }
+	color: #2db7f5;
+	> span {
+		display: inline-block;
+		margin: 0 30px;
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #2db7f5;
+		color: #fff;
+		vertical-align: middle;
+	}
 }
