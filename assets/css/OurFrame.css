@@ -2,6 +2,17 @@ html,
 body {
   height: 100%;
 }
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+.table code {
+  font-size: 13px;
+  font-weight: 400;
+}
 .topNav:before,
 .topNav:after,
 .header:before,
@@ -114,6 +125,9 @@ body {
   color: #333;
   margin-top: 43px;
   margin-bottom: 24px;
+  border-left: 6px solid #c7254e;
+  line-height: 24px;
+  padding-left: 10px;
 }
 .page-content > div > p {
   color: #555;
